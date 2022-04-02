@@ -9,6 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -32,30 +33,38 @@
     https://templatemo.com/tm-564-plot-listing
     
     -->
+    <style>
+        .has-sub{
+            background-color: rgba(189, 247, 232, 0.651);
+            color: white;
+        }
+    </style>
+    
 </head>
 
 <body>
-    
-    {% block content %}  {% endblock content %}
-  {% block js %}
-    
- <!-- Scripts -->
- <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
- <script src="{% static 'vendor/jquery/jquery.js' %}"></script>
- <script src="{% static 'vendor/jquery/jquery.slim.js' %}"></script>
- <script src="{% static 'vendor/jquery/jquery.slim.min.js' %}"></script>
- <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
- <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
- <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js.map' %}"></script>
- <script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
- <script src="{% static 'assets/js/owl-carousel.js' %}"></script>
- <script src="{% static 'assets/js/animation.js' %}"></script>
- <script src="{% static 'assets/js/imagesloaded.js' %}"></script>
- <script src="{% static 'assets/js/custom.js' %}"></script>
- <script src="{% static 'assets/js/isotope.js' %}"></script>
- <script src="{% static 'assets/js/tabs.js' %}"></script>
 
- {% endblock js %}    
+    {% block content %} {% endblock content %}
+    {% block js %}
+
+    <!-- Scripts -->
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/jquery/jquery.js' %}"></script>
+    <script src="{% static 'vendor/jquery/jquery.slim.js' %}"></script>
+    <script src="{% static 'vendor/jquery/jquery.slim.min.js' %}"></script>
+    <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js.map' %}"></script>
+    <script src="{% static 'vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/owl-carousel.js' %}"></script>
+    <script src="{% static 'assets/js/animation.js' %}"></script>
+    <script src="{% static 'assets/js/imagesloaded.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script src="{% static 'assets/js/isotope.js' %}"></script>
+    <script src="{% static 'assets/js/tabs.js' %}"></script>
+
+    
+    {% endblock js %}
 
 </body>
 

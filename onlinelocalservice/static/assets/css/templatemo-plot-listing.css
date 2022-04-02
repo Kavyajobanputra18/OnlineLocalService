@@ -9,6 +9,7 @@ https://templatemo.com/tm-564-plot-listing
 /* ---------------------------------------------
 Table of contents
 ------------------------------------------------
+00. dropdown 
 01. font & reset css
 02. reset
 03. global styles
@@ -200,7 +201,7 @@ body {
   background-color: #fff;
   font-size: 15px;
   font-weight: 400;
-  color: #2a2a2a;
+  color: #f5efef;
   text-transform: capitalize;
   padding: 12px 25px;
   border-radius: 7px;
@@ -212,7 +213,7 @@ body {
   margin-right: 10px;
   width: 22px;
   height: 22px;
-  background-color: #8d99af;
+  background-color: #d9dfeb;
   color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -222,7 +223,7 @@ body {
 }
 
 .main-white-button a:hover {
-  background-color: #8d99af;
+  background-color: #4982ec;
   color: #fff;
 }
 
@@ -252,7 +253,7 @@ header
 }
 
 .background-header .nav li a.active {
-  color: #8d99af!important;
+  color: white!important;
 }
 
 .header-area {
@@ -333,13 +334,13 @@ header
 }
 
 .background-header .main-nav .nav li:last-child .main-white-button a {
-  background-color: #8d99af;
+  background-color: #366aca;
   color: #fff !important;
 }
 
 .background-header .main-nav .nav li:last-child .main-white-button a i {
   background-color: #fff;
-  color: #8d99af;
+  color: #366aca;
 }
 
 .header-area .main-nav .nav li:last-child a:hover,
@@ -1496,13 +1497,13 @@ Category Post
 }
 
 .category-post .nacc .thumb .main-white-button a {
-  background-color: #8d99af;
+  background-color: #3779f3;
   color: #fff;
 }
 
 .category-post .nacc .thumb .main-white-button a i {
   background-color: #fff;
-  color: #8d99af;
+  color: #3f7cee;
 }
 
 .category-post .top-content {
@@ -2072,4 +2073,5 @@ responsive
   .category-post .icon {
     transform: translateX(-22px);
   }
+  
 }
